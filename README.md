@@ -1,18 +1,40 @@
-# Salesforce DX Project: Next Steps
+# 🧱 Salesforce CI/CD & Release Management Simulation
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## 📌 Overview
+This project simulates an enterprise-grade Salesforce release management lifecycle using Salesforce CLI, Git branching, QA validation, and rollback engineering.
 
-## How Do You Plan to Deploy Your Changes?
+## 🏗 Environment Setup
+- DevOrg (Development)
+- QAOrg (Quality Assurance)
+- CLI-based deployment workflow
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## 🚀 Features Implemented
+- Record-triggered Flow (Before-Save Optimization)
+- Opportunity scoring automation
+- Validation rule for stage control
+- Permission set configuration
 
-## Configure Your Salesforce DX Project
+## 🔄 Release Lifecycle Simulated
+1. Feature development in Dev
+2. Metadata retrieval using Salesforce CLI
+3. Git branching strategy (feature → develop → master)
+4. QA dry-run validation
+5. QA deployment & smoke testing
+6. Incident simulation (logic regression)
+7. Git-based rollback using `git revert`
+8. Redeployment & validation
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## 📄 Documentation
+- QA-Validation-Results.md
+- Incident-Rollback-Report.md
 
-## Read All About It
+## 🎯 Key Learnings
+- Difference between before-save and after-save flows
+- Importance of CLI-based deployment validation
+- Lightning page vs Page layout behavior
+- Field-Level Security impact on deployment
+- Professional rollback strategy using Git revert
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+---
+
+This project demonstrates release discipline, governance awareness, and deployment stability practices beyond basic Salesforce administration.
