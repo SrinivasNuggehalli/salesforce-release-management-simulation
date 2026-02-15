@@ -57,7 +57,7 @@
                 <leftValueReference>$Record.Amount</leftValueReference>
                 <operator>GreaterThan</operator>
                 <rightValue>
-                    <numberValue>1.0E7</numberValue>
+                    <numberValue>100000.0</numberValue>
                 </rightValue>
             </conditions>
             <connector>
